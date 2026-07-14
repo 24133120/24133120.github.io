@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+body{margin:0;}
+body {font-family: "Kiwi Maru", serif;}
+
+h1{color:#f5dfbb;
+      text-align:center;}
+
+footer{text-align:center;
+  background-color :#0e9594;
+  color:#f5dfbb;
+  padding-top:10px;
+  padding-bottom:10px;}
+
+article{position:relative;
+        clear: both;
+        width: 960px;
+        margin-left:auto;
+        margin-right:auto;}
+        
+.catch{position:absolute;
+  top:-15px;
+  left: 380px;
+  text-shadow:0pt 5pt 10pt #000000;}
+header{background-color:#ffffff;
+      color: #f2542d;}
+header img{float:left;}
+.header-in{width: 960px;
+          margin-left:auto;
+          margin-right:auto;}
+
+.sub-h1{background:linear-gradient(to left,#ffffff,#f5dfbb);
+      padding-top:5px;
+      padding-left:10px;
+      border-left:15px solid #11686a;
+      color:#f2542d;}
+
+.content-list{list-style-image:url(../image/onigirigyotomozi.png);
+            font-weight:bold;
+            margin-left:30px;}
+
+.content1-img{box-shadow:0px 0px 10px 3px #aaaaaa;
+            border-radius:10px;
+            float:left;
+            margin-left:10px;
+            margin-right:20px;
+            margin-bottom:10px;}
+
+.content2-img{border-radius:10px;
+            float:left;
+            margin-left:70px;
+            margin-right:110px;
+            margin-bottom:10px;}
+
+.content3-img{border-radius:10px;
+            float:left;
+            margin-left:70px;
+            margin-right:110px;
+            margin-top:20px;}
+
+.sentou{clear:both;
+      text-align:right;}
+
+ol li{display: inline;
+      margin-right:5px;
+      font-size:80%;}
+
+ol{padding-left:0;}
+
+.page{padding-left:10px;
+      padding-right:10px;}
+
+ul a{text-decoration:none;
+      color:#f2542d;
+      border-bottom:1.5px solid #11686a;}
+ul a:hover{color:#0e9594;}
+
+p a{text-decoration:none;
+      color:#f2542d;}
+p a:hover{color:#0e9594;}
+
+small a{text-decoration:none;
+      color:#f2542d;}
+small a:hover{color:#562c2c;}
+
+.red{color:#f2542d;}
+.green{color:#11686a;}
+.brown{color:#562c2c;}
+.center{text-align:center;}
+.padding{padding-bottom:5%;
+      padding-top:8%;}
+
+p{font-size:90%;
+  line-height:1.8;
+  padding-left:20px;}
+h1{font-size:150%;}
+h2{font-size:120%;
+border-bottom:thick dotted #0e9594;
+border-left:10px solid #0e9594;
+padding-left:7px;}
+h3{font-size:100%;}
+footer{text-align:center;}
+
+ul{list-style-type:none;
+  padding-left:0;
+  line-height:1.8;
+  font-size:90%;}
+ul time{border-radius:10px;
+      background-color:#0e9594;
+      color:#f5dfbb;
+      font-size:90%;
+      padding-left:5px;
+      padding-right:5px;
+      margin-right:5px;}
+
+nav ul{font-weight:bold;
+      text-align:right;
+      padding-top:15px;
+      padding-bottom:15px;
+      margin:0;}
+
+nav li{display:inline;
+      padding-left: 60px;
+      padding-right: 60px;
+      border-right:3px solid #0e9594;}
+
+table{border:1px solid #333333;
+      font-size:90%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom:20px;
+      border-collapse:collapse;}
+
+th{background-color:#0e9594;
+   color:#ffffff;
+   border:1px solid #333333;
+   padding:10px;
+   width:20%;}
+
+td{border:1px solid #333333;
+   padding:10px;}
+
+caption{caption-side:top;}
+
+/*959px以下の場合　後ろに配置しなきゃできない！*/
+@media(max-width:959px)
+{header img{float:none;}
+nav ul{text-align:left;
+      padding:0;
+      margin-left:10px;}
+      article{width:auto;}
+      article img{max-width:100%;
+                  height:auto;}
+      .header-in{width:auto;}}
+/*600px以下の場合*/
+@media(max-width:600px)
+{nav li{font-size:75%;
+      padding-left:20px;
+      padding-right:20px;}
+footer{font-size:30%;
+      text-align:left;}
+.catch{top:1px;
+      left:140px;}
+.content1-img{float:none;}}
+
+.dummy {margin:0;}
