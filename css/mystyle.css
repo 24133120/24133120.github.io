@@ -89,7 +89,7 @@ small a:hover{color:#562c2c;}
 .center{text-align:center;}
 .padding{padding-bottom:5%;
       padding-top:8%;}
-.content1text{padding-left:400px;}
+.content1text{margin-left:400px;}
 
 p{font-size:90%;
   line-height:1.8;
